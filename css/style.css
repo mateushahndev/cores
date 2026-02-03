@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/***********************NAV*******************/
+
+nav {
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+}
+
+nav ul li {
+    list-style: none;
+    transition: .3s;
+}
+
+nav ul li:hover {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+/***********************MAIN*******************/
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+}
+
+main h2 {
+    font-size: 2.2rem;
+    padding-bottom: .7rem;
+}
+
+main button {
+    padding: .3rem 3rem;
+    font-size: 1.1rem;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+main button:hover {
+    background-color: rgba(255, 0, 0, 0.678);
+}
