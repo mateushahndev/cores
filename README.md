@@ -2,6 +2,8 @@
 
 Projeto simples em JavaScript desenvolvido como exercício prático para treinamento de manipulação de DOM e geração de cores aleatórias.
 
+Site do projeto: https://cores-teal.vercel.app/
+
 ## Contexto
 
 O projeto foi originalmente proposto como desafio no curso Full-Stack Turbo (TipsCode).  
